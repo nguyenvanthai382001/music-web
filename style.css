@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+.wrapper {
+    height: 100vh;
+    background-color: #fafafa;
+    padding-top: 50px;
+}
+.music-box{
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-color: #fff;
+    width: 400px;
+    height: 450px;
+    box-shadow: 0 0 10px rgb(233, 227, 227);
+    border-radius: 30px;
+}
+img{
+    width: 100px;
+    border-radius: 13px;
+    margin-top: 50px;
+}
+.music-name{
+    margin-top: 15px;
+    font-weight: 600;
+    font-size: 20px;
+}
+.music-siger{
+    font-size: 15px;
+    color: rgb(201, 193, 193);
+    margin-bottom: 20px;
+}
+.music-time{
+    width: 320px;
+    display: flex;
+    justify-content: space-between;
+    font-size: 14px;
+    color: rgb(133, 125, 125);
+}
+.mussic-volumn input{
+    width: 320px;
+    height: 2px;
+}
+.music-next{
+    align-self: flex-end;
+    margin-right: 20px;
+    margin-top: 15px;
+    font-weight: 600;
+    font-size: 15px;
+}
+.music-next span {
+    font-size: 13px;
+    color: grey;
+}
+.controls{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0 60px;
+    margin-top: 20px;
+
+}
+.play{
+    height: 65px;
+    width: 65px;
+    border-radius: 50%;
+    background: #fc354c;
+    background: linear-gradient(to right, #fc354c, #0abfbc);    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    position: relative;
+}
+.play-inner{
+    background-color: #fff;
+    position: absolute;
+    z-index: 10;
+    border-radius: 50%;
+    height: 45px;
+    width: 45px;
+}
+.play-icon{
+    color: rgb(88, 85, 85);
+    font-size: 23px;
+    margin-top: 10px;
+    margin-left: 13px;
+}
+.play-back{
+    font-size: 23px;
+    color: rgb(88, 85, 85);
+    cursor: pointer;
+}
+.play-forward{
+    font-size: 23px;
+    color: rgb(88, 85, 85);
+    cursor: pointer;
+}
