@@ -8,8 +8,10 @@
 
 .wrapper {
     height: 100vh;
-    background-color: #fafafa;
+    background:linear-gradient(
+        135deg, #e55d87 0%, #5fc3e4 100%);
     padding-top: 50px;
+    width: 100%;
 }
 .music-box{
     margin: 0 auto;
@@ -18,14 +20,12 @@
     flex-direction: column;
     background-color: #fff;
     width: 400px;
-    height: 450px;
-    box-shadow: 0 0 10px rgb(233, 227, 227);
+    height: 500px;
     border-radius: 30px;
 }
 img{
-    width: 100px;
+    width: 200px;
     border-radius: 13px;
-    margin-top: 50px;
 }
 .music-name{
     margin-top: 15px;
@@ -101,4 +101,25 @@ img{
     font-size: 23px;
     color: rgb(88, 85, 85);
     cursor: pointer;
+}
+
+@media only screen and (max-width: 576px) {
+    .wrapper {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding-top: 0;
+    }
+    .music-box{
+        width: 330px;
+        height: 500px;
+        margin: 0 20px;
+    }
+    .mussic-volumn input{
+        width: 230px;
+        height: 2px;
+    }
+    .music-time{
+        width: 237px;
+    }
 }
