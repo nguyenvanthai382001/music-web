@@ -37,7 +37,7 @@ img{
     color: rgb(201, 193, 193);
     margin-bottom: 20px;
 }
-.music-time{
+.timer{
     width: 320px;
     display: flex;
     justify-content: space-between;
@@ -61,10 +61,10 @@ img{
 }
 .controls{
     display: flex;
-    justify-content: center;
     align-items: center;
-    gap: 0 60px;
+    justify-content: space-between;
     margin-top: 20px;
+    width: 50%;
 
 }
 .play{
@@ -91,6 +91,9 @@ img{
     font-size: 23px;
     margin-top: 10px;
     margin-left: 13px;
+}
+.play-icon-pause{
+    margin-left: 11px;
 }
 .play-back{
     font-size: 23px;
@@ -119,7 +122,17 @@ img{
         width: 230px;
         height: 2px;
     }
-    .music-time{
+    .timer{
         width: 237px;
     }
+    /* .controls{
+        display: unset;    
+    } */
+    /* .play-back{
+        display: inline-block;
+    }
+    .play-forward{
+        display: inline-block;
+
+    } */
 }
