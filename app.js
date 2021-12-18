@@ -8,7 +8,7 @@ const rangeBar = document.querySelector(".range");
 
 let isPlaying = true;
 let indexSong = 0;
-const music = ['holo.mp3','home.mp3','mp3_music_summer.mp3','spark.mp3'];
+const music = ['TallyHallHiddenintheSand.mp3','JoshTurnerYourMan.mp3','JóseanLogChachachá.mp3','AdeleSendMyLoveToYourNewLover.mp3','AdeleSomeoneLikeYou.mp3','AdeleSetFireToTheRainLiveatTheRoyalAlbertHall.mp3'];
 
 //// next song and prev song
 song.setAttribute("src", `./music/${music[indexSong]}`);

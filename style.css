@@ -9,7 +9,7 @@
 .wrapper {
     height: 100vh;
     background:linear-gradient(
-        135deg, #e55d87 0%, #5fc3e4 100%);
+        135deg, #797173 10%, #c0e02e 100%);
     padding-top: 50px;
     width: 100%;
 }
@@ -20,12 +20,13 @@
     flex-direction: column;
     background-color: #fff;
     width: 400px;
-    height: 500px;
+    height: 530px;
     border-radius: 30px;
 }
 img{
     width: 200px;
     border-radius: 13px;
+    margin-top: 20px;
 }
 .music-name{
     margin-top: 15px;
@@ -34,7 +35,7 @@ img{
 }
 .music-siger{
     font-size: 15px;
-    color: rgb(201, 193, 193);
+    color: rgb(165, 151, 151);
     margin-bottom: 20px;
 }
 .timer{
